@@ -1,0 +1,159 @@
+/* common styles */
+
+body{
+
+font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+.navigationWrapper{
+
+    height: 190px;
+    background-color: black;
+    color: darkblue;
+    /* This is making it a flexbox container */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 100px;
+
+}
+
+.navigationWrapper > .left-column > .contact-hours-wrapper{
+
+    color: red;
+}
+
+.navigationWrapper > .left-column > .icon{
+
+   
+    margin-right: 15px;
+    width: 100px;
+    text-align: center;
+}
+
+.navigationWrapper > .left-column > .icon i{
+font-size: 2em;
+color: white;
+   
+}
+
+.navigationWrapper > .left-column > .icon i:hover{
+
+    transition: .07s;
+font-size: 4em;
+color: gold;
+}
+
+/* left column styles */
+.navigationWrapper > .left-column{
+
+    display: flex;
+   align-items: center;
+}
+
+.navigationWrapper > .left-column > .contact-hours-wrapper{
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+.navigationWrapper > .left-column > .contact-hours-wrapper > .hours{
+
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.linkWrapper a {
+
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+/* right column styles */
+.navigationWrapper > .rightColumn > .address{
+
+    font-family: 'Ubuntu Condensed', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: right;
+}
+
+.navigationWrapper > .rightColumn > .address > .mapIcon{
+
+    margin-left: 15px;
+    font-size: 2em;
+    transition: 0.5s;
+}
+
+.navigationWrapper > .rightColumn > .address a{
+
+    color: white;
+    
+}
+
+.navigationWrapper > .rightColumn > .address a:hover{
+    transition: 0.5s;
+    color: gold;
+}
+
+.navigationWrapper > .rightColumn > .address > .mapIcon:hover{
+
+    color: gold;
+}
+
+.navigationWrapper > .centerColumn > .bannerImage img{
+
+width: 216px;
+height: 100%;
+
+
+}
+
+/* center column styles */
+.navigationWrapper > .centerColumn{
+
+display: grid;
+grid-template-columns: 1fr;
+grid-gap: 42px;
+width: 500px;
+margin-right: 100px;
+}
+
+.navigationWrapper > .centerColumn > .bannerImage{
+
+    display: flex;
+    justify-content: center;
+}
+
+ .linkWrapper{
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.navigationWrapper > .centerColumn > .linkWrapper > .navLink a{
+
+text-decoration: none;
+color: white;
+
+
+}
+
+.navigationWrapper > .centerColumn > .linkWrapper > .navLink a:hover{
+transition: 0.5s;
+letter-spacing: 2px;
+text-decoration: underline;
+color:gold;
+
+
+}
+
+.linkWrapper > .navLink{
+
+    width: 100px;
+    text-align: center;
+}
+
+
